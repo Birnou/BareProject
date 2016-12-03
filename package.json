@@ -1,0 +1,21 @@
+{
+  "name": "pem-gulp-base",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Birnou",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp-bower-normalize": "^1.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-main-bower-files": "^1.5.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "vinyl-paths": "^2.1.0"
+  }
+}

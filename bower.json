@@ -1,0 +1,29 @@
+{
+  "name": "pem-bowwer-base",
+  "authors": [
+    "Birnou <bsebarte@puce-et-media.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "html5shiv": "^3.7.3",
+    "lightbox2": "^2.9.0"
+  },
+  "overrides": {
+	"lightbox2": {
+		"normalize": {
+			"images": ["*.gif", "*.png"]
+		}
+	}
+  }
+}
